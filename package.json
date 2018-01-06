@@ -1,0 +1,9 @@
+{
+  "name": "daybook",
+  "version": "1.0.0",
+  "description": "Keep track of what's important to you.",
+  "main": "index.js",
+  "repository": "https://github.com/brianlovin/daybook",
+  "author": "Brian Lovin",
+  "license": "MIT"
+}
