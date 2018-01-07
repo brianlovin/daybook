@@ -1,0 +1,42 @@
+{
+  "name": "daybook-client",
+  "version": "1.0.0",
+  "description": "Clientside React for Daybook",
+  "main": "index.js",
+  "repository": "https://github.com/brianlovin/daybook",
+  "author": "Brian Lovin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-styled-components": "^1.4.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "^0.63.1",
+    "flow-typed": "^2.2.3",
+    "jest": "^22.0.4"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.5",
+    "apollo-client": "^2.2.0",
+    "apollo-client-preset": "^1.0.6",
+    "apollo-link-http": "^1.3.2",
+    "graphql": "^0.12.3",
+    "graphql-anywhere": "^4.1.1",
+    "graphql-tag": "^2.6.1",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.20.1",
+    "next": "4.2.1",
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "16.2.0",
+    "recompose": "^0.26.0",
+    "styled-components": "^2.4.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
