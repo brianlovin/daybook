@@ -32,8 +32,11 @@
     "rimraf": "^2.6.2"
   },
   "scripts": {
+    "dev:web": "cd ./web && yarn run dev",
+    "dev:mobile": "cd ./mobile && yarn start",
+    "dev:mobile:ios": "cd ./mobile && yarn run ios",
+    "dev:mobile:android": "cd ./mobile && yarn run android",
     "flow": "flow",
-    "dev:client": "cd ./src && yarn run dev",
     "precommit": "lint-staged",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix"
