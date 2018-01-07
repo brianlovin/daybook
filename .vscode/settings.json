@@ -10,7 +10,8 @@
   },
   "eslint.autoFixOnSave": true,
   "eslint.workingDirectories": [
-    "./src",
+    "./web",
+    "./mobile",
     "./api"
   ],
 }
