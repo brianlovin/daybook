@@ -1,0 +1,5 @@
+{
+  "env": {
+    "SESSION_COOKIE_SECRET": "@session-cookie-secret"
+  }
+}
